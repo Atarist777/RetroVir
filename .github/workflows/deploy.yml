@@ -13,4 +13,5 @@ jobs:
       pages: "write"
       id-token: "write"
     with:
-      settings: "pelicanconf.py"
+        settings: "pelicanconf.py"
+        requirements: "requirements.txt"
