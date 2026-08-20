@@ -18,13 +18,22 @@
     let searchInput = document.getElementById('search-input');
     let resultsContainer = document.getElementById('search-results');
 
-    // Load search index
+    // Загрузка поискового индекса
     fetch('{{ SITEURL }}/search_index.json')
-        .then(response => response.json())
+        .then(response => {
+            if (!response.ok) {
+                throw new Error('Search index not found');
+            }
+            return response.json();
+        })
         .then(data => {
             searchIndex = data;
+            console.log('Search index loaded:', searchIndex.articles.length, 'articles');
         })
-        .catch(err => console.error('Failed to load search index:', err));
+        .catch(err => {
+            console.error('Failed to load search index:', err);
+            resultsContainer.innerHTML = '<p>Search index not available. Please try again later.</p>';
+        });
 
     function performSearch() {
         const query = searchInput.value.trim().toLowerCase();
