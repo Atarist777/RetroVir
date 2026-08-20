@@ -617,6 +617,8 @@ Even though you can't see the menu, you can still use it. Press "2," and the IlG
 * *date:* 1988-1991
 * *detonation conditions:* change in BASIC code.
 
+### Description
+
 GS.TONER — a short Applesoft BASIC program that generates various telephone sounds, including the 12
 tones made by pressing a touch-tone keypad,
 dial tones, and busy signals. Its description encouraged the user to learn all about the program by listing and modifying it.
@@ -625,11 +627,14 @@ Closer examination of GS.TONER showed that assembly code was embedded at the end
 
 ## Screen Blanker
 
+### Details
 * *Versions:* 1.0?
 * *Authors:* ?
 * *infects:* blocks 0, 1, RAM, files?
 * *date:* 1986?
 * *detonation conditions:* accidentally.
+
+### Description
 
 Although I mentioned that Screen Blanker and StarFighter II are the same virus, but according to information from the magazine "La Pomme Illustree 0" it is mentioned that this is the first virus on GS/OS that infects files and makes the screen black. Here's its description straight from the magazine: "Screen Blanker is a completely different matter... It's the first file virus for 68/OS, less malicious than the previous ones, but still quite annoying, as you'll see. It doesn't work on a counter, but randomly. As Screen Blanker points out, it gives you a blank screen (as its friendly name suggests, it automatically clears your screen). It's the equivalent of our Blackout virus. This virus erases everything. If you're in text mode, the screen goes completely black...
 
@@ -646,14 +651,17 @@ If you're in graphics mode, the screen also goes completely black, disappearing 
 
 #### Apocalypse I
 
+### Description
+
 Most likely a modified version of StarFighter II which is harder to get rid of. Has a reference to StarFighter II at the end of its code has the inscription "I espylacopA" (Apocalypse I) backwards. When detonated, it decrypts the encrypted text, turns the screen and text completely black and displays the text in red letters in the center of the screen on a black background "You should have used Spy Check Up...". This raises suspicions that one of the developers of this antivirus could have released this virus into the wild, but even so, it is a rather rare virus.
 
-
-![Screenshot of Skull Aids virus]({static}/gallery/viruses/appleii/apocalypsei.png)
+![Screenshot of Apocalypse I({static}/gallery/viruses/appleii/apocalypsei.png)
 
 #### Apocalypse II
 
+### Description
 
+Little is known about this virus. Only two antivirus programs can correctly detect it: RX.GS and Spy Check Up. It was most likely found in the program "Spy Format Expert V1.3," but this needs to be verified. If you have "Spy Format Expert V1.3," please contact the site administrator.
 
 ## Info & Links
 
