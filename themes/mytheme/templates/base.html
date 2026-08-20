@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}{{ SITENAME }}{% endblock %}</title>
+    <link rel="stylesheet" href="{{ SITEURL }}/theme/css/main.css">
+</head>
+<body class="dark-theme">
+    <header>
+        <h1><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+        {% if SITESUBTITLE %}<p>{{ SITESUBTITLE }}</p>{% endif %}
+        <nav>
+            <ul>
+                <li><a href="{{ SITEURL }}/">Home</a></li>
+                <li class="dropdown">
+                    <a href="#" class="dropbtn">Apple II</a>
+                    <div class="dropdown-content">
+                        <a href="{{ SITEURL }}/dos33/">DOS 3.3</a>
+                        <a href="{{ SITEURL }}/prodos8/">PRODOS 8</a>
+                        <a href="{{ SITEURL }}/p16-iigs/">P16 - IIGS</a>
+                    </div>
+                </li>
+                <li><a href="{{ SITEURL }}/tags.html">Tags</a></li>
+                <li><a href="{{ SITEURL }}/search.html">Search</a></li>
+                <li><a href="{{ SITEURL }}/links-and-thanks/">Links & Thanks</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        <p>&copy; {{ SITENAME }}. Made with Pelican.</p>
+    </footer>
+
+    <script src="{{ SITEURL }}/theme/js/main.js"></script>
+</body>
+</html>

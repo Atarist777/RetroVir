@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block title %}{{ article.title }} | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<article>
+    <header>
+        <h1>{{ article.title }}</h1>
+        <div class="meta">
+            <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            {% if article.category %}
+            | Category: <a href="{{ SITEURL }}/{{ article.category.url }}">{{ article.category }}</a>
+            {% endif %}
+            {% if article.tags %}
+            | Tags: 
+            {% for tag in article.tags %}
+                <a href="{{ SITEURL }}/tag/{{ tag.slug }}.html">{{ tag }}</a>{% if not loop.last %}, {% endif %}
+            {% endfor %}
+            {% endif %}
+        </div>
+    </header>
+    {% if article.preview %}
+    <div class="article-full-preview">
+        <img src="{{ SITEURL }}/{{ article.preview }}" alt="{{ article.title }}">
+    </div>
+    {% endif %}
+    <div class="article-content">
+        {{ article.content }}
+    </div>
+</article>
+{% endblock %}

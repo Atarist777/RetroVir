@@ -1,0 +1,65 @@
+{% extends "base.html" %}
+
+{% block title %}Search | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h2>Search Articles</h2>
+    <p>Type a keyword to filter articles</p>
+</section>
+
+<div class="search-container">
+    <input type="text" id="search-input" placeholder="Search..." autocomplete="off">
+    <div id="search-results" class="articles-grid"></div>
+</div>
+
+<script>
+    let searchIndex = null;
+    let searchInput = document.getElementById('search-input');
+    let resultsContainer = document.getElementById('search-results');
+
+    // Load search index
+    fetch('{{ SITEURL }}/search_index.json')
+        .then(response => response.json())
+        .then(data => {
+            searchIndex = data;
+        })
+        .catch(err => console.error('Failed to load search index:', err));
+
+    function performSearch() {
+        const query = searchInput.value.trim().toLowerCase();
+        if (!searchIndex || query.length < 2) {
+            resultsContainer.innerHTML = '';
+            return;
+        }
+
+        const results = searchIndex.articles.filter(article => {
+            return article.title.toLowerCase().includes(query) ||
+                   article.summary.toLowerCase().includes(query) ||
+                   article.content.toLowerCase().includes(query) ||
+                   article.category.toLowerCase().includes(query) ||
+                   article.tags.some(tag => tag.toLowerCase().includes(query));
+        });
+
+        if (results.length === 0) {
+            resultsContainer.innerHTML = '<p>No articles found.</p>';
+            return;
+        }
+
+        resultsContainer.innerHTML = results.map(article => `
+            <article class="article-card">
+                <h3><a href="${searchIndex.site_url}/${article.url}">${article.title}</a></h3>
+                <div class="meta">
+                    <time datetime="${article.date}">${new Date(article.date).toLocaleDateString()}</time>
+                    ${article.category ? `| Category: ${article.category}` : ''}
+                    ${article.tags.length ? `| Tags: ${article.tags.join(', ')}` : ''}
+                </div>
+                <div class="summary">${article.summary}</div>
+                <a class="read-more" href="${searchIndex.site_url}/${article.url}">Read →</a>
+            </article>
+        `).join('');
+    }
+
+    searchInput.addEventListener('input', performSearch);
+</script>
+{% endblock %}

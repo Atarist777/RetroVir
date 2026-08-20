@@ -1,0 +1,34 @@
+{% extends "base.html" %}
+
+{% block title %}{{ category }} | {{ SITENAME }}{% endblock %}
+
+{% block content %}
+<section class="hero">
+    <h2>Category: {{ category }}</h2>
+    <p>Articles about {{ category }}</p>
+</section>
+
+<section class="articles">
+    <div class="articles-grid">
+        {% for article in articles %}
+        <article class="article-card">
+            {% if article.preview %}
+            <div class="article-preview">
+                <img src="{{ SITEURL }}/{{ article.preview }}" alt="{{ article.title }}">
+            </div>
+            {% endif %}
+            <h3><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h3>
+            <div class="meta">
+                <time datetime="{{ article.date.isoformat() }}">{{ article.locale_date }}</time>
+            </div>
+            <div class="summary">
+                {{ article.summary }}
+            </div>
+            <a class="read-more" href="{{ SITEURL }}/{{ article.url }}">Read →</a>
+        </article>
+        {% else %}
+        <p>No articles in this category yet.</p>
+        {% endfor %}
+    </div>
+</section>
+{% endblock %}
