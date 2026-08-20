@@ -1,18 +1,9 @@
 Title: Festering Hate
-Slug: festeringhate
-Name: Festering Hate virus
-Date: 2026-08-20 14:47
-Location: Russia / Moscow
-Category: Apple II, Virus
-Lang: en
-Author: Draedon
-status: hidden
+Date: 2026-08-20
+Category: PRODOS8
+Tags: file, prodos8
+Preview: gallery/viruses/appleii/festeringscr1.png
 summary: This article is about the Festering Hate virus...
-image: {filename}../../../gallery/viruses/festeringhate.png
-Source: no
-UVK: 
-OtherName: |16|[Festering Hate](/festeringhate-en.html)|Festering Hate Virus|yes|95||FESTERINGHATE.S|
-Tags: file virus
 
 ## In a few words...
 
