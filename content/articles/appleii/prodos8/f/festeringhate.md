@@ -5,10 +5,6 @@ Tags: file, prodos8
 Preview: gallery/viruses/appleii/festeringscr1.png
 summary: This article is about the Festering Hate virus...
 
-## In a few words...
-
-Festering Hate virus
-
 ## Details
 
  - **Replication**: Accidentally when opening an infected SYS file.
