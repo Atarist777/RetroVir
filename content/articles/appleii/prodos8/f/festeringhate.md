@@ -36,9 +36,4 @@ Can infect an empty SYS file, but this file will not be able to infect others.
 Does not infect a file infected with CyberAIDS.
 Does not touch file with names: PRODOS.
 
-
-i| grant from  Pig's Knuckle  ELITE   |d  
-c| Research.  Orderline: 313/534-1466 |o  
-k======[(C) 1988 ELECTRONIC ARTS]======N  
-
 <img src="{attach}festeringhate.png" width="60%"/>
