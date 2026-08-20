@@ -3,7 +3,7 @@ Date: 2026-08-20
 Category: P16-IIGS
 Tags: bootvir, prodos16, appleiigs
 Preview: gallery/viruses/appleii/apocalypsei.png
-Summary: This article is about the CyberAIDS virus...
+Summary: This article is about the BlackOut virus...
 
 ## StarFighter II
 
