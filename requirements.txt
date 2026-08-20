@@ -1,4 +1,5 @@
 pelican[markdown]
+markdown
 lxml>=4.0
 nose
 nose-exclude
