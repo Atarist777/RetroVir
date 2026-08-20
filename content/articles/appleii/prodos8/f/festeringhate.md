@@ -2,7 +2,7 @@ Title: Festering Hate
 Slug: festeringhate
 Name: Festering Hate virus
 Date: 2026-08-20 14:47
-Location: Montreal / Canada
+Location: Russia / Moscow
 Category: Apple II, Virus
 Lang: en
 Author: Draedon
