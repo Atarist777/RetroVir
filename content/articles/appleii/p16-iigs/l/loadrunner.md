@@ -57,7 +57,7 @@ A: None, it's a recovery, or I don't remember such an organization.
 Q: Did you feel known? Were you talked about in the press? If so, what effect did it have on you?
 A: No, at least not until the episode "Load Runner" which was, I think, our moment of notoriety.
 
-- As far as we can tell the virus is spread two ways: by being copied with a copy program and by booting an uninfected disk (using OA-CTRL-RESET) 
+As far as we can tell the virus is spread two ways: by being copied with a copy program and by booting an uninfected disk (using OA-CTRL-RESET) 
 immediately after running an infected disk. NOTE: For a disk to be infected it must not be write-protected. 
 The virus does NOT infect actual files so none of your files will look modified in either their file length or their modified date. 
 The virus also does not search all drives, as did Festering Hate, so cannot be detected that way. 
@@ -91,7 +91,7 @@ LR will destroy Space Quest 1 and Police Quest for the IIgs if they are booted A
 and if they are not write-protected. It is not necessary for LR to "go off" for these programs to be rendered useless. 
 I have only found these two that behave in this fashion but I am sure there are more.. 
 likely most of the Sierra programs for the IIgs.
-- To get Lode Runner to "go off" you must set your Control Panel's clock to the following: 
+To get Lode Runner to "go off" you must set your Control Panel's clock to the following: 
 the MONTH must be October, the DAY must be an odd numbered day and the minute must be a number divisable by 8. 
 Next you must boot an infected disk then boot (using OA-CTRL-RESET) any other disk. 
 This second disk must NOT be write-protected or the virus won't activate.
@@ -123,3 +123,31 @@ If you play with the counter and make it "FFFF" it will become 0000 when you try
 and if you boot at a time when the minutes are divisible by 8 and "ask" Load Runner about its presence, it will change the color of the screen frame and display the number of infected disks.
 
 ![Screenshot of Load Runner detonation]({static}/gallery/viruses/appleii/runercount4.png)
+
+## Info & Links
+
+VIRUSES ON THE APPLE //
+By Richard Bennett
+Copyright (c) 1990 Apple Users' Group, Sydney
+Republished from Applecations, a publication of the Apple Users' Group, Sydney, Australia.
+
+http://members.iinet.net.au/~kalandi/apple/AUG/1990/01%20JAN.FEB/VIRUSES.html
+
+https://discmaster.textfiles.com/view/13185/0_GoldenOrchard1.2.iso/Applications/AntiVirus/LodeRunner%20Virus%20Info/Virus
+
+https://discmaster.textfiles.com/view/32392/GoldenGrail1.0.zip/GO-ProDOS.2mg/GO.ProDOS/AppleWorks.N.Z/virus.disk/LR.INFO.AWP
+
+https://www.apple2history.org/history/ah23/
+
+La Pomme Illustree 0
+
+II Alive, Mar-Apr 1993, _Infected!_, Doug Cuff, pp. 28-33
+II Alive, May-Jun 1993, _Infected!, part 2_, Doug Cuff, pp. 40-42
+
+THIS CONTENT COPYRIGHT © 2007, APPLE MACINTOSH USERS' GROUP, SYDNEY
+Permission has been obtained to make this material available on the Internet.
+
+Permission is hereby granted for non-profit user groups to republish this content.
+PLEASE CREDIT THE AUTHOR AND THE SOURCE: Applecations, publication of the Apple Users' Group, Sydney, Australia
+
+THIS PAGE COPYRIGHT © 2007, ANDREW ROUGHAN
