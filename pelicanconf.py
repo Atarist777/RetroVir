@@ -4,7 +4,7 @@
 AUTHOR = 'Draedon'
 SITENAME = 'Retrovir'
 SITESUBTITLE = 'Retro Computing'
-SITEURL = ''
+SITEURL = 'https://atarist777.github.io/RetroVir'
 
 PATH = 'content'
 
@@ -34,7 +34,7 @@ DISPLAY_CATEGORIES_ON_MENU = False
 AUTHORS_SAVE_AS = ''
 CATEGORIES_SAVE_AS = ''
 
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 PLUGIN_PATHS = ['plugins']
 PLUGINS = ['json_search']
