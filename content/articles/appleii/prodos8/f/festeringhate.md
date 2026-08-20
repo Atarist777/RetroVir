@@ -12,7 +12,7 @@ summary: This article is about the Festering Hate virus...
  - **Attached**: SYS files, counter in the last byte of the second block.
  - **PRODOS**: all versions
 
-### What's special ?
+### Description
 
 Festering Hate (Authors: Lord Digital & Dead Lord)
 It attached itself to SYS files on all available volumes.
