@@ -18,4 +18,5 @@ It attached itself to SYS files on all available volumes. It only affected SYS f
 ![Screenshot of Festering Hate detonation]({static}/gallery/viruses/appleii/festeringscr1.png)
 
 After which the following screen appeared:
+
 ![Screenshot of Festering Hate final screen]({static}/gallery/viruses/appleii/festeringhate.png)
