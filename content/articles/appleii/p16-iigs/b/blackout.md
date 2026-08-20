@@ -1,5 +1,5 @@
 Title: BlackOut
-Date: 2025-03-26
+Date: 2026-08-20
 Category: P16-IIGS
 Tags: bootvir, prodos16, appleiigs
 Preview: gallery/viruses/appleii/apocalypsei.png
