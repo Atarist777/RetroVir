@@ -1,5 +1,5 @@
 Title: CyberAIDS
-Date: 2025-03-26
+Date: 2026-08-20
 Category: PRODOS8
 Tags: file, prodos8
 Preview: gallery/viruses/appleii/cyberaids1.0.png
