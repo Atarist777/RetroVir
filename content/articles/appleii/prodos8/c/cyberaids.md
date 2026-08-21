@@ -6,10 +6,10 @@ Preview: gallery/viruses/appleii/cyberaids1.0.png
 Summary: This article is about the CyberAIDS virus...
 
 ### Details
-* *Versions*: 1.0; 2.01
-* *Author*: The BOY! & Tom E. Hawk
-* *detonation conditions:* when the counter in the last byte of block 2 becomes equal to 16.
-* *size:* Adds 5.5 blocks to the SYS file, for a total of 2816 bytes.
+* *Versions*: 1.0; 2.01; (also its culmination Festering Hate and subsequently Doom's Day).
+* *Author*: The BOY! & Tom E. Hawk.
+* *detonation conditions*: when the counter in the last byte of block 2 becomes equal to 16.
+* *size*: Adds 5.5 blocks to the SYS file, for a total of 2816 bytes.
 
 ### Description
 With the proliferation of computer bulletin board systems across the country during the 1980s, a number of them were dedicated to talented hackers who were interested in cracking copy-protected software. This interest sometimes extended to breaking into secure computer systems, and sometimes it even involved theft from those systems. Unlike many BBSs, which wanted as wide an exposure as possible, to attract greater and greater numbers of members, these underground hacker systems were intended to be quiet, private, and invitation-only. This was done to avoid attention, especially from authorities trying to track those who were breaking into secure systems.
