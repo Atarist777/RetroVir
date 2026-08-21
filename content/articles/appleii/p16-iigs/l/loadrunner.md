@@ -7,7 +7,7 @@ Summary: This article is about the Load Runner virus...
 
 ### Details
 * *infects*: bootblock, bank $E1 in memory.
-* *Authors*: SUPER HACKER & SHYRKAN
+* *Authors*: SUPER HACKER & SHYRKAN.
 * *detonation conditions*: Load Runner would go off when you booted an infected disk on any day in October when the date was odd-numbered and the time in minutes was divisible by 8 (8, 16, 24, 32, 40, 48).
 * *size*: 1024 bytes (0-1 blocks).
 * *date*: 1988. Was launched en masse on computers in 1989 and was also discovered in July 1989 by Brian McCaig.
@@ -48,9 +48,9 @@ After which it colors the screen dark green and displays the following message:
 
 And also the frame around the green square where the text is located quickly changes colors. 000F is the number of copies he managed to make while he was with you. After that Block $0 & $1 Destroyed.
 
-The creator of the virus was interviewed and asked about Load Runner:
-Q: Why write a virus?
-A: The idea for Load Runner came to me one quiet evening, and the next day I met Super Hacker again in high school and told him that the boot sector could pick up a virus program. He then worked on the code, and I even believe that I still have the source code for Merlin somewhere. It should be clarified that it was non-destructive, since it was limited to changing the boot (other sectors were not loaded or affected). But it was the first thing that impressed us most, since I remember many of my floppies being infected during setup. But I would say, above all, that the technical challenge was our main motivation, and above all, Super Hacker found the trick. The idea was part of that boot sector that fascinated me, as well as RWTS, and today that quality is no longer there, since there are far fewer restrictions.
+The creator of the virus was interviewed and asked about Load Runner:  
+Q: Why write a virus?  
+A: The idea for Load Runner came to me one quiet evening, and the next day I met Super Hacker again in high school and told him that the boot sector could pick up a virus program. He then worked on the code, and I even believe that I still have the source code for Merlin somewhere. It should be clarified that it was non-destructive, since it was limited to changing the boot (other sectors were not loaded or affected). But it was the first thing that impressed us most, since I remember many of my floppies being infected during setup. But I would say, above all, that the technical challenge was our main motivation, and above all, Super Hacker found the trick. The idea was part of that boot sector that fascinated me, as well as RWTS, and today that quality is no longer there, since there are far fewer restrictions.  
 Q: Do you have the feeling that this served as an incentive for other hackers who then created other viruses (Dave, Starfighter I & II, ...)?  
 A: <No answer> We didn't make any other viruses after that.  
 Q: On the Load Runner virus screen, it says: distributed by Artistes Associés. What was the relationship between MCS and AA/LSD (Lyon Software Distribution) other than the fact that you were from Lyon?  
