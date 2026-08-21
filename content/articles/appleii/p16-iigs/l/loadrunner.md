@@ -10,6 +10,7 @@ Summary: This article is about the Load Runner virus...
 * *Authors*: SUPER HACKER & SHYRKAN
 * *detonation conditions*: Load Runner would go off when you booted an infected disk on any day in October when the date was odd-numbered and the time in minutes was divisible by 8 (8, 16, 24, 32, 40, 48)
 * *size*: 1024 bytes (0-1 blocks).
+* *date*: 1988-1989
 
 ### Description
 
