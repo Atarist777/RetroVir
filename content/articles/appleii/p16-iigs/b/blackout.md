@@ -8,11 +8,11 @@ Summary: This article is about the BlackOut virus...
 ## StarFighter II
 
 ### Details
-* *Versions:* StarFighter II
-* *Author:* Jim Fraser (presumably); perhaps someone from the group "F.U.C.K."
-* *infects:* blocks 0, 1, RAM
-* *date:* 1989-1990
-* *detonation conditions:* if the infection counter has reached 8 and the time is greater than or equal to 19:00
+* *Versions*: StarFighter II
+* *Author*: Jim Fraser (presumably); perhaps someone from the group "F.U.C.K."
+* *infects*: blocks 0, 1, RAM
+* *date*: 1989-1990
+* *detonation conditions*: if the infection counter has reached 8 and the time is greater than or equal to 19:00
 
 The description of Deverminator II states:
 
