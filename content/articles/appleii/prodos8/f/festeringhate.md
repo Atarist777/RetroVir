@@ -6,10 +6,11 @@ Preview: gallery/viruses/appleii/festeringhate.png
 summary: This article is about the Festering Hate virus...
 
 ### Details
+* *Versions*: CyberAIDS 1.0, 2,01; Festering Hate; Doom's Day
 * *Replication*: Accidentally when opening an infected SYS file.
 * *Authors*: The BOY!, Tom E. Hawk, Lord Digital, Dead Lord, The Plague.
-* *detonation conditions:* when the counter in the last byte of block 2 becomes equal to 23.
-* *size:* Adds 7.5 blocks to the SYS file, for a total of 3840 bytes.
+* *detonation conditions*: when the counter in the last byte of block 2 becomes equal to 23.
+* *size*: Adds 7.5 blocks to the SYS file, for a total of 3840 bytes.
 
 ### Description
 
