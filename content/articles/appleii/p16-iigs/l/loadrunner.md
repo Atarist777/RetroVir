@@ -18,9 +18,9 @@ Load Runner is the first boot virus for the GS, designed by Les Artistes Associ√
 
 So how do you know if you've been infected by a virus?
 
-1 - It goes off! Not very helpful at all.
-2 - You notice strange goings on with your disk drives. Like longer boot times, and various disk drives being accessed when completely unnecessary.
-3 - You actually look for one, and find it!
+1 - It goes off! Not very helpful at all.  
+2 - You notice strange goings on with your disk drives. Like longer boot times, and various disk drives being accessed when completely unnecessary.  
+3 - You actually look for one, and find it!  
 
 The first is a sure fire method of finding a virus. Unfortunately, it's not very helpful apart from letting you know that you're about to spend your weekend reconstructing all your disks again. The third method is the preferred one, and I'll talk about that a bit later.
 
