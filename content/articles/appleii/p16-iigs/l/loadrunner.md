@@ -51,12 +51,12 @@ And also the frame around the green square where the text is located quickly cha
 The creator of the virus was interviewed and asked about Load Runner:
 Q: Why write a virus?
 A: The idea for Load Runner came to me one quiet evening, and the next day I met Super Hacker again in high school and told him that the boot sector could pick up a virus program. He then worked on the code, and I even believe that I still have the source code for Merlin somewhere. It should be clarified that it was non-destructive, since it was limited to changing the boot (other sectors were not loaded or affected). But it was the first thing that impressed us most, since I remember many of my floppies being infected during setup. But I would say, above all, that the technical challenge was our main motivation, and above all, Super Hacker found the trick. The idea was part of that boot sector that fascinated me, as well as RWTS, and today that quality is no longer there, since there are far fewer restrictions.
-Q: Do you have the feeling that this served as an incentive for other hackers who then created other viruses (Dave, Starfighter I & II, ...)?
-A: <No answer> We didn't make any other viruses after that.
-Q: On the Load Runner virus screen, it says: distributed by Artistes Associés. What was the relationship between MCS and AA/LSD (Lyon Software Distribution) other than the fact that you were from Lyon?
-A: None, it's a recovery, or I don't remember such an organization.
-Q: Did you feel known? Were you talked about in the press? If so, what effect did it have on you?
-A: No, at least not until the episode "Load Runner" which was, I think, our moment of notoriety.
+Q: Do you have the feeling that this served as an incentive for other hackers who then created other viruses (Dave, Starfighter I & II, ...)?  
+A: <No answer> We didn't make any other viruses after that.  
+Q: On the Load Runner virus screen, it says: distributed by Artistes Associés. What was the relationship between MCS and AA/LSD (Lyon Software Distribution) other than the fact that you were from Lyon?  
+A: None, it's a recovery, or I don't remember such an organization.  
+Q: Did you feel known? Were you talked about in the press? If so, what effect did it have on you?  
+A: No, at least not until the episode "Load Runner" which was, I think, our moment of notoriety.  
 
 As far as we can tell the virus is spread two ways: by being copied with a copy program and by booting an uninfected disk (using OA-CTRL-RESET) 
 immediately after running an infected disk. NOTE: For a disk to be infected it must not be write-protected. 
