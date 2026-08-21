@@ -8,9 +8,9 @@ Summary: This article is about the Load Runner virus...
 ### Details
 * *infects*: bootblock, bank $E1 in memory.
 * *Authors*: SUPER HACKER & SHYRKAN
-* *detonation conditions*: Load Runner would go off when you booted an infected disk on any day in October when the date was odd-numbered and the time in minutes was divisible by 8 (8, 16, 24, 32, 40, 48)
+* *detonation conditions*: Load Runner would go off when you booted an infected disk on any day in October when the date was odd-numbered and the time in minutes was divisible by 8 (8, 16, 24, 32, 40, 48).
 * *size*: 1024 bytes (0-1 blocks).
-* *date*: 1988-1989
+* *date*: 1988. Was launched en masse on computers in 1989 and was also discovered in July 1989 by Brian McCaig.
 
 ### Description
 
