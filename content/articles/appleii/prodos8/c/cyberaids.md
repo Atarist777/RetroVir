@@ -101,8 +101,8 @@ NOTE2: DESTROY or LEAVE is executed depending on the status of the disk counter.
 
 SH = Standard Header (first few bytes of the original file's executable code).  
 JC = Jump Code (jumps to the address of the virus).  
+VC = Viral Code (see Virus Outline).  
+EOF = End of File.  
 
 ### Virus Eliminator
 There was a program (supposedly written by Tom E. Hawk) called "Virus Eliminator." It supposedly eliminated the CyberAIDS virus, but in fact, it installed it in SYS files. When you opened the program and tried to use it as an antivirus, it said "Virus installed" and infected some SYS file. She was allegedly distributing CyberAIDS 2.01.
-VC = Viral Code (see Virus Outline).  
-EOF = End of File. 
